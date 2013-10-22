@@ -1,5 +1,5 @@
-[gnome]() - A Simple Node.js Blog Engine
-========================================
+[gnome]() - A Simple Node.js Blog Framework
+===========================================
 [![Build Status](https://drone.io/github.com/shrimpboyho/gnome/status.png)](https://drone.io/github.com/shrimpboyho/gnome/latest)
 
 ###How To Install
