@@ -33,7 +33,7 @@ var gnome = require('gnome');
 gnome.setExpress(app);
 
 // Send in the mongodb uri
-gnome.setMongoURI('mongodb://shrimpboyho:shrimprockman@ds051378.mongolab.com:51378/gnome');
+gnome.setMongoURI('mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]');
 
 // Initialize the blog api
 gnome.initBlog();
