@@ -1,0 +1,33 @@
+{
+  "name": "gnome",
+  "version": "0.0.1",
+  "description": "A Simple Blog Engine Built on Node.js and Express.js",
+  "main": "test.js",
+  "dependencies": {
+    "colors": "~0.6.2",
+    "express": "~3.0.6",
+    "mongodb": "~1.3.19"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shrimpboyho/gnome.git"
+  },
+  "keywords": [
+    "blog",
+    "engine",
+    "simple",
+    "express.js",
+    "jquery",
+    "lightweight"
+  ],
+  "author": "shrimpboyho",
+  "license": "GPL",
+  "gitHead": "f8a039325b600c23ff226bd0250e024fcd3601a4",
+  "readmeFilename": "README.md"
+}
