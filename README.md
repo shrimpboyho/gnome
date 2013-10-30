@@ -1,4 +1,4 @@
-[gnome]() - A Simple Node.js Blog Framework Built on Express.js and MongoDB
+[gnome]() - A Simple Embeddable Node.js Blog Framework Built on Express.js and MongoDB
 ===========================================
 [![Build Status](https://drone.io/github.com/shrimpboyho/gnome/status.png)](https://drone.io/github.com/shrimpboyho/gnome/latest)
 
