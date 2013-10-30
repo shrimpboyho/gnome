@@ -1,7 +1,7 @@
 {
   "name": "gnome",
   "version": "0.0.1",
-  "description": "A Simple Blog Engine Built on Node.js and Express.js",
+  "description": "A Simple Embeddable Blog Framework Built on Node.js and Express.js",
   "main": "test.js",
   "dependencies": {
     "colors": "~0.6.2",
