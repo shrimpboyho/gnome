@@ -1,7 +1,8 @@
 [gnome]() - A Simple Embeddable Node.js Blog Framework Built on Express.js and MongoDB
 ===========================================
 [![Build Status](https://drone.io/github.com/shrimpboyho/gnome/status.png)](https://drone.io/github.com/shrimpboyho/gnome/latest)
-
+<br>
+<img src='http://images.wikia.com/zomg/images/8/8c/Lawn_gnome.png'>
 ###How To Install
 
 You can easily drop ```gnome``` into your project through the package manager.
