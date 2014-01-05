@@ -1,8 +1,8 @@
 {
   "name": "gnome",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Simple Embeddable Blog Framework Built on Node.js and Express.js",
-  "main": "test.js",
+  "main": "gnome.js",
   "dependencies": {
     "colors": "~0.6.2",
     "express": "~3.0.6",
@@ -12,7 +12,8 @@
     "grunt": "~0.4.1"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "gnome": "gnome"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,17 @@
     "jquery",
     "lightweight"
   ],
-  "author": "shrimpboyho",
+  "author": {
+    "name": "shrimpboyho"
+  },
   "license": "GPL",
   "gitHead": "f8a039325b600c23ff226bd0250e024fcd3601a4",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "readme": "[gnome]() - A Simple Embeddable Node.js Blog Framework Built on Express.js and MongoDB\r\n===========================================\r\n[![Build Status](https://drone.io/github.com/shrimpboyho/gnome/status.png)](https://drone.io/github.com/shrimpboyho/gnome/latest)\r\n\r\n###How To Install\r\n\r\nYou can easily drop ```gnome``` into your project through the package manager.\r\n\r\n```bash\r\n$ npm install gnome\r\n```\r\n\r\n###How To Use\r\n\r\n####Server Side\r\n\r\nYou can easily integrate ```gnome``` into your ```express.js``` project.\r\n\r\n```js\r\n// Set up express\r\nvar express = require('express');\r\nvar app = express();\r\n\r\n// Set up server homepage\r\napp.get('/', function(req, res) {\r\n\tres.send('Yeah');\r\n});\r\n\r\n// Import gnome\r\nvar gnome = require('gnome');\r\n\r\n// Send in the express app\r\ngnome.setExpress(app);\r\n\r\n// Send in the mongodb uri\r\ngnome.setMongoURI('mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]');\r\n\r\n// Initialize the blog api\r\ngnome.initBlog();\r\n\r\n// Listen\r\napp.listen(8000);\r\nconsole.log('Listening on port 8000');\r\n```\r\n\r\n####Client Side\r\n\r\nThere is a client side js file that can be called via HTML. (It is dependent on jQuery)\r\n\r\n```html\r\n<script src=\"jquery.min.js\"></script>\r\n<script src=\"gnome/gnomeclient.js\"></script>\r\n<script src=\"yourjavascript.js\"></script>\r\n```\r\n\r\nThere are several jQuery extensions now availible.\r\n\r\n```js\r\n// Create a post\r\nvar post = {\r\n\t\r\n\ttitle: \"How To Use Node.js\",\r\n\tauthor: \"NodeNinja\",\r\n\tbody: \"BLAHBLAHBLAH\",\r\n\ttags: ['tutorials','nodejs','projects']\r\n\r\n};\r\n\r\n// Publish the post\r\n$.newPost(post);\r\n\r\n// Get all posts in a JSON object\r\nvar history = $.getAllPosts();\r\n\r\n// Get a single post by id (unique object id)\r\nvar singlepost = $.getPostById('5265d92146b9320c02000001');\r\n```\r\n\r\n###About MongoDB Configuration\r\n\r\n```gnome``` stores your blog posts in MongoDB, within a collection called ```gnomeblog```\r\n\r\n\r\n",
+  "_id": "gnome@0.0.2",
+  "dist": {
+    "shasum": "5a1f1839b76661e1eec8fb519c916e1f1ec78e6c"
+  },
+  "_from": "gnome@",
+  "_resolved": "https://registry.npmjs.org/gnome/-/gnome-0.0.2.tgz"
 }
