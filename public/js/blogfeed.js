@@ -7,6 +7,8 @@ function generatePost(title,body,id){
 }
 
 // Load up all posts
+var posts = $.getAllPosts();
+console.log(posts);
 
 $.getJSON("/api/fetchposts", function(response) {
   	console.log(response);

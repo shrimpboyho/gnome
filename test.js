@@ -2,10 +2,8 @@
 var express = require('express');
 var app = express();
 
-// Set up server homepage
-app.get('/', function(req, res) {
-	res.send('HEYA!');
-});
+// Set up static file serving
+app.use(express.static(__dirname + '/public'));
 
 // Import gnome
 var gnome = require('./gnome');
